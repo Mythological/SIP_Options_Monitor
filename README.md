@@ -1,3 +1,9 @@
+# SIP Options Monitor
+
+**English | Русский**
+
+---
+
 ## Description (English)
 
 ### SIP Options Monitor — SIP Device Availability Monitoring System
@@ -36,6 +42,13 @@ This project provides automated monitoring of SIP devices (phones, gateways) by 
    # or for Russian version:
    python sip_monitor_ru.py
    ```
+
+#### Testing Email and Telegram Notifications
+You can test email or Telegram notifications separately by running the corresponding module directly:
+```bash
+python email_utils.py   # Sends a test email to the specified address
+python telegram_utils.py  # Sends a test message to Telegram
+```
 
 #### Automatic startup with cron (Linux/macOS)
 To run the script automatically at system startup, add it to your crontab with the @reboot flag, specifying the Python path from your virtual environment. Example:
@@ -79,7 +92,12 @@ REPORT_INTERVAL_SECONDS=3600
 
 ---
 
-Donate:
+#### Additional tools
+You can use the `ip_pinger.py` script to automatically generate a list of IP addresses for SIP devices. This tool scans IP ranges and helps you quickly identify available devices in your network.
+
+---
+
+#### Donate:
 
 BTC: bc1qna64m0wpelkhy3vwhctvpp5g2elsqhj4ykyfgs
 
@@ -93,11 +111,11 @@ DOGE: DJmwXWqqmhGy1cSFmgxakP4YhA3PEKksgT
 
 Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
 
-# SIP Options Monitor
+## License
 
-**English | Русский **
+MIT License
 
----
+Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
 
 ## Описание (Русский)
 
@@ -135,6 +153,13 @@ Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
    ```
    python3.6 sip_monitor_ru.py
    ```
+
+#### Проверка email и Telegram уведомлений
+Вы можете проверить работу отправки email или Telegram отдельно, запустив соответствующий модуль напрямую:
+```bash
+python3.6 email_utils.py   # Отправит тестовое письмо на указанный адрес
+python3.6 telegram_utils.py  # Отправит тестовое сообщение в Telegram
+```
 
 #### Автоматический запуск через cron (Linux/macOS)
 Чтобы скрипт запускался автоматически при загрузке системы, добавьте его в crontab с флагом @reboot, указав путь к Python из виртуального окружения. Пример:
@@ -177,7 +202,11 @@ REPORT_INTERVAL_SECONDS=3600
 - `.env` — настройки (не добавляйте в публичный репозиторий!)
 
 ---
-Donate:
+
+#### Дополнительные инструменты
+Для автоматического составления списка IP-адресов SIP-устройств вы можете использовать скрипт `ip_pinger.py`. Он позволяет быстро просканировать диапазон адресов и выявить доступные устройства в вашей сети.
+
+#### Донат:
 
 BTC: bc1qna64m0wpelkhy3vwhctvpp5g2elsqhj4ykyfgs
 
@@ -190,6 +219,8 @@ LTC: ltc1qprphmcj7dncdj4k0aucuw43axefyvmdx22tcw5
 DOGE: DJmwXWqqmhGy1cSFmgxakP4YhA3PEKksgT
 
 Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
+
+---
 
 ## License
 
