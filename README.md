@@ -115,8 +115,6 @@ Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
 
 MIT License
 
-Solana: DmfDLbkHRqhd3LRoGgWpdWLcDAT3dk1wZdSD2sZoGfNe
-
 ## Описание (Русский)
 
 ### SIP Options Monitor — система мониторинга доступности SIP-устройств (телефонов, шлюзов)
